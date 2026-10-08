@@ -2,15 +2,15 @@ The HC32F460KETA-HOPE-KIT consists of a core board and a base board. The core bo
 
 1.Physical picture of the core board
 
-!\[core\_board\_top](./assets/core\_board\_top.png)
+![core_board_top](./assets/core_board_top.png)
 
-!\[core\_board\_bottom](./assets/core\_board\_bottom.png)
+![core_board_bottom](./assets/core_board_bottom.png)
 
 2.Physical picture of the expansion board
 
-!\[expansion\_board\_top](./assets/expansion\_board\_top.png)
+![expansion_board_top](./assets/expansion_board_top.png)
 
-!\[expansion\_board\_bottom](./assets/expansion\_board\_bottom.png)
+![expansion_board_bottom](./assets/expansion_board_bottom.png)
 
 3.UI Function demonstration
 Attention!!!!    This UI and idea are based on the KeLiang open-source project.And I ported this project based on the DDL library of HC32F460
