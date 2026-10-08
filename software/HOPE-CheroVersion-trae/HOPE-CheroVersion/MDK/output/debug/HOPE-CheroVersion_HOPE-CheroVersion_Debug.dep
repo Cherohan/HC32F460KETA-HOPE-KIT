@@ -1,0 +1,1906 @@
+Dependencies for Project 'HOPE-CheroVersion', Target 'HOPE-CheroVersion_Debug': (DO NOT MODIFY !)
+F (.\startup_hc32f460.s)(0x67653D0C)(--cpu Cortex-M4 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 524"--list .\output\debug\startup_hc32f460.lst --xref -o .\output\debug\startup_hc32f460.o --depend .\output\debug\startup_hc32f460.d)
+F (.\common\system_hc32f460.c)(0x67653D0C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\system_hc32f460.o --omf_browse .\output\debug\system_hc32f460.crf --depend .\output\debug\system_hc32f460.d)
+I (common\system_hc32f460.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (common\hc32f4xx.h)(0x67653D0C)
+I (common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+F (.\source\main.c)(0x6AC27926)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\main.o --omf_browse .\output\debug\main.crf --depend .\output\debug\main.d)
+I (source\main.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\hardware\WS2812\WS2812.h)(0x6AC15F5A)
+I (.\hardware\MPU6500\MPU6500.h)(0x6AC1647C)
+I (.\hardware\SW_I2C\SW_I2C_SEN.h)(0x6AB16369)
+I (.\hardware\W25Q128\W25Qxx.h)(0x6AC1691B)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (.\system\delay\delay.h)(0x6AC143DD)
+I (.\system\usart\usart.h)(0x6AC0D8E7)
+I (.\hardware\timer\timer.h)(0x6AC0F19E)
+I (.\hardware\BEEPER\BEEPER.h)(0x6AC0F1A5)
+I (.\hardware\Encoder\Encoder.h)(0x6AC27926)
+I (.\hardware\MultiButton\multi_button_user.h)(0x6AC26C9F)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\hardware\OLED\OLED.h)(0x6AC13BF9)
+I (.\hardware\SW_I2C\SW_I2C_OLED.h)(0x6AB16A69)
+I (.\hardware\OLED\OLED_Font.h)(0x6AC13CE8)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_core.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\hardware\usb_app\usb_dev_desc.h)(0x67653D16)
+I (.\hardware\usb_app\usb_dev_user.h)(0x67653D16)
+I (.\midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_class.h)(0x67653D0F)
+I (.\hardware\Hugo_UI\Hugo_UI.h)(0x6AC20FEF)
+I (.\hardware\OLED\OLED_User.h)(0x6AC20FDA)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\hardware\Hugo_UI\HugoUI_User.h)(0x6AC2115C)
+I (.\hardware\MALLOC\malloc.h)(0x6AC21015)
+I (.\hardware\FileSystem\FileSystem.h)(0x6AC21162)
+F (.\driver\src\hc32_ll.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll.o --omf_browse .\output\debug\hc32_ll.crf --depend .\output\debug\hc32_ll.d)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+F (.\driver\src\hc32_ll_icg.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_icg.o --omf_browse .\output\debug\hc32_ll_icg.crf --depend .\output\debug\hc32_ll_icg.d)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+F (.\driver\src\hc32_ll_utility.c)(0x6AC1E785)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_utility.o --omf_browse .\output\debug\hc32_ll_utility.crf --depend .\output\debug\hc32_ll_utility.d)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_pwc.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_pwc.o --omf_browse .\output\debug\hc32_ll_pwc.crf --depend .\output\debug\hc32_ll_pwc.d)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_sram.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_sram.o --omf_browse .\output\debug\hc32_ll_sram.crf --depend .\output\debug\hc32_ll_sram.d)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_efm.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_efm.o --omf_browse .\output\debug\hc32_ll_efm.crf --depend .\output\debug\hc32_ll_efm.d)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_clk.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_clk.o --omf_browse .\output\debug\hc32_ll_clk.crf --depend .\output\debug\hc32_ll_clk.d)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_gpio.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_gpio.o --omf_browse .\output\debug\hc32_ll_gpio.crf --depend .\output\debug\hc32_ll_gpio.d)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_fcg.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_fcg.o --omf_browse .\output\debug\hc32_ll_fcg.crf --depend .\output\debug\hc32_ll_fcg.d)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_aos.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_aos.o --omf_browse .\output\debug\hc32_ll_aos.crf --depend .\output\debug\hc32_ll_aos.d)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_cmp.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_cmp.o --omf_browse .\output\debug\hc32_ll_cmp.crf --depend .\output\debug\hc32_ll_cmp.d)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_interrupts.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_interrupts.o --omf_browse .\output\debug\hc32_ll_interrupts.crf --depend .\output\debug\hc32_ll_interrupts.d)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32f460_ll_interrupts_share.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32f460_ll_interrupts_share.o --omf_browse .\output\debug\hc32f460_ll_interrupts_share.crf --depend .\output\debug\hc32f460_ll_interrupts_share.d)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_tmra.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_tmra.o --omf_browse .\output\debug\hc32_ll_tmra.crf --depend .\output\debug\hc32_ll_tmra.d)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_usart.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_usart.o --omf_browse .\output\debug\hc32_ll_usart.crf --depend .\output\debug\hc32_ll_usart.d)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\driver\src\hc32_ll_spi.c)(0x67653D0E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_spi.o --omf_browse .\output\debug\hc32_ll_spi.crf --depend .\output\debug\hc32_ll_spi.d)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\hardware\WS2812\WS2812.c)(0x6AC15EE8)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\ws2812.o --omf_browse .\output\debug\ws2812.crf --depend .\output\debug\ws2812.d)
+I (hardware\WS2812\WS2812.h)(0x6AC15F5A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\system\delay\delay.h)(0x6AC143DD)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+F (.\hardware\WS2812\WS2812.h)(0x6AC15F5A)()
+F (.\hardware\OLED\OLED.c)(0x6AC13D8F)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\oled.o --omf_browse .\output\debug\oled.crf --depend .\output\debug\oled.d)
+I (hardware\OLED\OLED.h)(0x6AC13BF9)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\hardware\SW_I2C\SW_I2C_OLED.h)(0x6AB16A69)
+I (hardware\OLED\OLED_Font.h)(0x6AC13CE8)
+F (.\hardware\OLED\OLED.h)(0x6AC13BF9)()
+F (.\hardware\SW_I2C\SW_I2C_OLED.c)(0x6ABF7799)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\sw_i2c_oled.o --omf_browse .\output\debug\sw_i2c_oled.crf --depend .\output\debug\sw_i2c_oled.d)
+I (hardware\SW_I2C\SW_I2C_OLED.h)(0x6AB16A69)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+F (.\hardware\SW_I2C\SW_I2C_OLED.h)(0x6AB16A69)()
+F (.\hardware\SW_I2C\SW_I2C_SEN.c)(0x6AC1656A)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\sw_i2c_sen.o --omf_browse .\output\debug\sw_i2c_sen.crf --depend .\output\debug\sw_i2c_sen.d)
+I (hardware\SW_I2C\SW_I2C_SEN.h)(0x6AB16369)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+F (.\hardware\SW_I2C\SW_I2C_SEN.h)(0x6AB16369)()
+F (.\hardware\OLED\oledfont.h)(0x69BEBC6C)()
+F (.\hardware\BEEPER\BEEPER.c)(0x6AC139B7)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\beeper.o --omf_browse .\output\debug\beeper.crf --depend .\output\debug\beeper.d)
+I (hardware\BEEPER\BEEPER.h)(0x6AC0F1A5)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+F (.\hardware\BEEPER\BEEPER.h)(0x6AC0F1A5)()
+F (.\hardware\Encoder\Encoder.c)(0x6AC27D4A)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\encoder.o --omf_browse .\output\debug\encoder.crf --depend .\output\debug\encoder.d)
+I (hardware\Encoder\Encoder.h)(0x6AC27926)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\hardware\BEEPER\BEEPER.h)(0x6AC0F1A5)
+F (.\hardware\Encoder\Encoder.h)(0x6AC27926)()
+F (.\hardware\MultiButton\multi_button_user.c)(0x6AC29595)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\multi_button_user.o --omf_browse .\output\debug\multi_button_user.crf --depend .\output\debug\multi_button_user.d)
+I (hardware\MultiButton\multi_button_user.h)(0x6AC26C9F)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (hardware\MultiButton\multi_button.h)(0x6AC0F1D1)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\system\usart\usart.h)(0x6AC0D8E7)
+I (.\hardware\BEEPER\BEEPER.h)(0x6AC0F1A5)
+F (.\hardware\MultiButton\multi_button_user.h)(0x6AC26C9F)()
+F (.\hardware\MultiButton\multi_button.c)(0x6AC0FAF9)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\multi_button.o --omf_browse .\output\debug\multi_button.crf --depend .\output\debug\multi_button.d)
+I (hardware\MultiButton\multi_button.h)(0x6AC0F1D1)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\hardware\MultiButton\multi_button.h)(0x6AC0F1D1)()
+F (.\hardware\timer\timer.c)(0x6AC28C0C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\timer.o --omf_browse .\output\debug\timer.crf --depend .\output\debug\timer.d)
+I (hardware\timer\timer.h)(0x6AC0F19E)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\hardware\BEEPER\BEEPER.h)(0x6AC0F1A5)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\hardware\Encoder\Encoder.h)(0x6AC27926)
+I (.\hardware\MultiButton\multi_button.h)(0x6AC0F1D1)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\hardware\timer\timer.h)(0x6AC0F19E)()
+F (.\hardware\MPU6500\MPU6500.c)(0x6AC166A8)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\mpu6500.o --omf_browse .\output\debug\mpu6500.crf --depend .\output\debug\mpu6500.d)
+I (hardware\MPU6500\MPU6500.h)(0x6AC1647C)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\hardware\SW_I2C\SW_I2C_SEN.h)(0x6AB16369)
+I (.\hardware\timer\timer.h)(0x6AC0F19E)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\math.h)(0x588B8344)
+F (.\hardware\MPU6500\MPU6500.h)(0x6AC1647C)()
+F (.\hardware\W25Q128\W25Q128.c)(0x6AC16923)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\w25q128.o --omf_browse .\output\debug\w25q128.crf --depend .\output\debug\w25q128.d)
+I (hardware\W25Q128\W25Qxx.h)(0x6AC1691B)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+F (.\hardware\W25Q128\W25QXX.h)(0x6AC1691B)()
+F (.\system\delay\delay.c)(0x6AC14696)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\delay.o --omf_browse .\output\debug\delay.crf --depend .\output\debug\delay.d)
+I (system\delay\delay.h)(0x6AC143DD)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+F (.\system\delay\delay.h)(0x6AC143DD)()
+F (.\system\sys\sys.h)(0x6AC0D8C4)()
+F (.\system\usart\usart.c)(0x6AC0DAEB)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usart.o --omf_browse .\output\debug\usart.crf --depend .\output\debug\usart.d)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (system\usart\usart.h)(0x6AC0D8E7)
+F (.\system\usart\usart.h)(0x6AC0D8E7)()
+F (.\driver\src\hc32_ll_usb.c)(0x6AC20452)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hc32_ll_usb.o --omf_browse .\output\debug\hc32_ll_usb.crf --depend .\output\debug\hc32_ll_usb.d)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\hardware\usb_app\usb_bsp.h)(0x6AC16D4D)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\midwares\usb\usb_device_lib\device_core\usb_dev_core.c)(0x6AC1EAC3)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_core.o --omf_browse .\output\debug\usb_dev_core.crf --depend .\output\debug\usb_dev_core.d)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_core.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_stdreq.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_ctrleptrans.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_driver.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_int.h)(0x67653D0F)
+I (.\hardware\usb_app\usb_bsp.h)(0x6AC16D4D)
+F (.\midwares\usb\usb_device_lib\device_core\usb_dev_ctrleptrans.c)(0x67653D0F)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_ctrleptrans.o --omf_browse .\output\debug\usb_dev_ctrleptrans.crf --depend .\output\debug\usb_dev_ctrleptrans.d)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_ctrleptrans.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_driver.h)(0x67653D0F)
+F (.\midwares\usb\usb_device_lib\device_core\usb_dev_driver.c)(0x67653D0F)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_driver.o --omf_browse .\output\debug\usb_dev_driver.crf --depend .\output\debug\usb_dev_driver.d)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_driver.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\midwares\usb\usb_device_lib\device_core\usb_dev_int.c)(0x6AC20695)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_int.o --omf_browse .\output\debug\usb_dev_int.crf --depend .\output\debug\usb_dev_int.d)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_int.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\midwares\usb\usb_device_lib\device_core\usb_dev_stdreq.c)(0x6AC1EAC3)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_stdreq.o --omf_browse .\output\debug\usb_dev_stdreq.crf --depend .\output\debug\usb_dev_stdreq.d)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_core.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_stdreq.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_driver.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_core\usb_dev_ctrleptrans.h)(0x67653D0F)
+F (.\midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_bot.c)(0x67653D0F)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_msc_bot.o --omf_browse .\output\debug\usb_dev_msc_bot.crf --depend .\output\debug\usb_dev_msc_bot.d)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_bot.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_core.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_scsi.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_ctrleptrans.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_mem.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_driver.h)(0x67653D0F)
+F (.\midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_class.c)(0x67653D0F)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_msc_class.o --omf_browse .\output\debug\usb_dev_msc_class.crf --depend .\output\debug\usb_dev_msc_class.d)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_mem.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_class.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_bot.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_core.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_stdreq.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_driver.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_ctrleptrans.h)(0x67653D0F)
+F (.\midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_data.c)(0x67653D0F)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_msc_data.o --omf_browse .\output\debug\usb_dev_msc_data.crf --depend .\output\debug\usb_dev_msc_data.d)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_data.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+F (.\midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_scsi.c)(0x67653D0F)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_msc_scsi.o --omf_browse .\output\debug\usb_dev_msc_scsi.crf --depend .\output\debug\usb_dev_msc_scsi.d)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_bot.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_core.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_scsi.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_mem.h)(0x67653D0F)
+I (midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_data.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_driver.h)(0x67653D0F)
+F (.\hardware\usb_app\usb_bsp.c)(0x6AC208F3)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_bsp.o --omf_browse .\output\debug\usb_bsp.crf --depend .\output\debug\usb_bsp.d)
+I (hardware\usb_app\usb_bsp.h)(0x6AC16D4D)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_int.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+F (.\hardware\usb_app\usb_dev_desc.c)(0x67653D16)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_desc.o --omf_browse .\output\debug\usb_dev_desc.crf --depend .\output\debug\usb_dev_desc.d)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_core.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (hardware\usb_app\usb_dev_desc.h)(0x67653D16)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_stdreq.h)(0x67653D0F)
+F (.\hardware\usb_app\usb_dev_user.c)(0x67653D16)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_user.o --omf_browse .\output\debug\usb_dev_user.crf --depend .\output\debug\usb_dev_user.d)
+I (hardware\usb_app\usb_dev_user.h)(0x67653D16)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_core.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (hardware\usb_app\usb_bsp.h)(0x6AC16D4D)
+F (.\hardware\usb_app\usb_dev_msc_msd.c)(0x6AC16D83)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\usb_dev_msc_msd.o --omf_browse .\output\debug\usb_dev_msc_msd.crf --depend .\output\debug\usb_dev_msc_msd.d)
+I (hardware\usb_app\usb_dev_msc_msd.h)(0x67653D16)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_core.h)(0x67653D0F)
+I (.\midwares\usb\usb_device_lib\device_core\usb_dev_def.h)(0x67653D0F)
+I (.\midwares\usb\usb_lib.h)(0x67653D0F)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\midwares\usb\usb_device_lib\device_class\msc\usb_dev_msc_mem.h)(0x67653D0F)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\hardware\MALLOC\malloc.c)(0x6AC21016)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\malloc.o --omf_browse .\output\debug\malloc.crf --depend .\output\debug\malloc.d)
+I (hardware\MALLOC\malloc.h)(0x6AC21015)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+F (.\hardware\Hugo_UI\Hugo_UI.c)(0x6AC20FEF)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hugo_ui.o --omf_browse .\output\debug\hugo_ui.crf --depend .\output\debug\hugo_ui.d)
+I (hardware\Hugo_UI\Hugo_UI.h)(0x6AC20FEF)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\system\delay\delay.h)(0x6AC143DD)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (.\hardware\OLED\OLED.h)(0x6AC13BF9)
+I (.\hardware\SW_I2C\SW_I2C_OLED.h)(0x6AB16A69)
+I (.\hardware\OLED\OLED_Font.h)(0x6AC13CE8)
+I (.\hardware\OLED\OLED_User.h)(0x6AC20FDA)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\hardware\MALLOC\malloc.h)(0x6AC21015)
+I (.\system\usart\usart.h)(0x6AC0D8E7)
+I (hardware\Hugo_UI\HugoUI_User.h)(0x6AC2115C)
+I (.\hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (.\hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\Hugo_UI\HugoUI_BMP.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hugoui_bmp.o --omf_browse .\output\debug\hugoui_bmp.crf --depend .\output\debug\hugoui_bmp.d)
+I (hardware\Hugo_UI\HugoUI_BMP.h)(0x6AC20FF7)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+F (.\hardware\Hugo_UI\HugoUI_User.c)(0x6AC21947)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\hugoui_user.o --omf_browse .\output\debug\hugoui_user.crf --depend .\output\debug\hugoui_user.d)
+I (hardware\Hugo_UI\HugoUI_User.h)(0x6AC2115C)
+I (.\hardware\OLED\OLED.h)(0x6AC13BF9)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\hardware\SW_I2C\SW_I2C_OLED.h)(0x6AB16A69)
+I (.\hardware\OLED\OLED_Font.h)(0x6AC13CE8)
+I (.\hardware\OLED\OLED_User.h)(0x6AC20FDA)
+I (hardware\Hugo_UI\Hugo_UI.h)(0x6AC20FEF)
+I (.\system\delay\delay.h)(0x6AC143DD)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\math.h)(0x588B8344)
+I (hardware\Hugo_UI\HugoUI_BMP.h)(0x6AC20FF7)
+I (.\hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (.\hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+I (.\hardware\U8G2\u8g2_Init.h)(0x6AC20FBD)
+I (.\hardware\MALLOC\malloc.h)(0x6AC21015)
+I (.\hardware\BEEPER\BEEPER.h)(0x6AC0F1A5)
+I (.\system\usart\usart.h)(0x6AC0D8E7)
+I (.\hardware\MPU6500\MPU6500.h)(0x6AC1647C)
+I (.\hardware\FileSystem\FileSystem.h)(0x6AC21162)
+I (.\hardware\WS2812\WS2812.h)(0x6AC15F5A)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (.\hardware\OLED\OLED_User.c)(0x6AC20FDA)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\oled_user.o --omf_browse .\output\debug\oled_user.crf --depend .\output\debug\oled_user.d)
+I (hardware\OLED\OLED.h)(0x6AC13BF9)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\hardware\SW_I2C\SW_I2C_OLED.h)(0x6AB16A69)
+I (hardware\OLED\OLED_Font.h)(0x6AC13CE8)
+I (.\hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (.\hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\math.h)(0x588B8344)
+I (.\hardware\Hugo_UI\HugoUI_User.h)(0x6AC2115C)
+I (.\hardware\OLED\OLED_User.h)(0x6AC20FDA)
+I (.\hardware\Hugo_UI\Hugo_UI.h)(0x6AC20FEF)
+I (.\system\delay\delay.h)(0x6AC143DD)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (.\system\usart\usart.h)(0x6AC0D8E7)
+I (.\hardware\BEEPER\BEEPER.h)(0x6AC0F1A5)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (.\hardware\FileSystem\FileSystem.c)(0x6AC21169)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\filesystem.o --omf_browse .\output\debug\filesystem.crf --depend .\output\debug\filesystem.d)
+I (hardware\FileSystem\FileSystem.h)(0x6AC21162)
+I (.\hardware\Hugo_UI\Hugo_UI.h)(0x6AC20FEF)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (.\system\delay\delay.h)(0x6AC143DD)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+I (.\hardware\OLED\OLED.h)(0x6AC13BF9)
+I (.\hardware\SW_I2C\SW_I2C_OLED.h)(0x6AB16A69)
+I (.\hardware\OLED\OLED_Font.h)(0x6AC13CE8)
+I (.\hardware\OLED\OLED_User.h)(0x6AC20FDA)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\math.h)(0x588B8344)
+F (.\hardware\U8G2\mui.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\mui.o --omf_browse .\output\debug\mui.crf --depend .\output\debug\mui.d)
+I (hardware\U8G2\mui.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\hardware\U8G2\mui_u8g2.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\mui_u8g2.o --omf_browse .\output\debug\mui_u8g2.crf --depend .\output\debug\mui_u8g2.d)
+I (hardware\U8G2\mui.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+I (hardware\U8G2\mui_u8g2.h)(0x69BEBC6C)
+F (.\hardware\U8G2\u8g2_bitmap.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_bitmap.o --omf_browse .\output\debug\u8g2_bitmap.crf --depend .\output\debug\u8g2_bitmap.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_box.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_box.o --omf_browse .\output\debug\u8g2_box.crf --depend .\output\debug\u8g2_box.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_buffer.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_buffer.o --omf_browse .\output\debug\u8g2_buffer.crf --depend .\output\debug\u8g2_buffer.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_button.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_button.o --omf_browse .\output\debug\u8g2_button.crf --depend .\output\debug\u8g2_button.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_circle.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_circle.o --omf_browse .\output\debug\u8g2_circle.crf --depend .\output\debug\u8g2_circle.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_cleardisplay.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_cleardisplay.o --omf_browse .\output\debug\u8g2_cleardisplay.crf --depend .\output\debug\u8g2_cleardisplay.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_d_memory.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_d_memory.o --omf_browse .\output\debug\u8g2_d_memory.crf --depend .\output\debug\u8g2_d_memory.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_d_setup.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_d_setup.o --omf_browse .\output\debug\u8g2_d_setup.crf --depend .\output\debug\u8g2_d_setup.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_font.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_font.o --omf_browse .\output\debug\u8g2_font.crf --depend .\output\debug\u8g2_font.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_fonts.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_fonts.o --omf_browse .\output\debug\u8g2_fonts.crf --depend .\output\debug\u8g2_fonts.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_hvline.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_hvline.o --omf_browse .\output\debug\u8g2_hvline.crf --depend .\output\debug\u8g2_hvline.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\assert.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_Init.c)(0x6AC20FBD)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_init.o --omf_browse .\output\debug\u8g2_init.crf --depend .\output\debug\u8g2_init.d)
+I (.\driver\inc\hc32_ll.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_def.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\common\hc32f4xx.h)(0x67653D0C)
+I (.\common\hc32f460.h)(0x67653D0C)
+I (.\common\core_cm4.h)(0x67653D0D)
+I (.\common\cmsis_version.h)(0x67653D0C)
+I (.\common\cmsis_compiler.h)(0x67653D0C)
+I (.\common\cmsis_armcc.h)(0x67653D0C)
+I (.\common\mpu_armv7.h)(0x67653D0D)
+I (.\common\system_hc32f460.h)(0x6AB0D54A)
+I (.\source\hc32f4xx_conf.h)(0x6AC1E5CF)
+I (.\driver\inc\hc32_ll_aos.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_clk.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_cmp.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_efm.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_fcg.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_gpio.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_icg.h)(0x6AB0D54A)
+I (.\driver\inc\hc32_ll_interrupts.h)(0x67653D0D)
+I (.\driver\inc\hc32f460_ll_interrupts_share.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_pwc.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_spi.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_sram.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_tmra.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_usart.h)(0x67653D0D)
+I (.\driver\inc\hc32_ll_utility.h)(0x67653D0D)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\driver\inc\hc32_ll_usb.h)(0x67653D0D)
+I (.\hardware\usb_app\usb_app_conf.h)(0x6AC16D4A)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+I (hardware\U8G2\u8g2_Init.h)(0x6AC20FBD)
+I (.\hardware\SW_I2C\SW_I2C_OLED.h)(0x6AB16A69)
+I (.\system\delay\delay.h)(0x6AC143DD)
+I (.\system\sys\sys.h)(0x6AC0D8C4)
+F (.\hardware\U8G2\u8g2_input_value.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_input_value.o --omf_browse .\output\debug\u8g2_input_value.crf --depend .\output\debug\u8g2_input_value.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_intersection.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_intersection.o --omf_browse .\output\debug\u8g2_intersection.crf --depend .\output\debug\u8g2_intersection.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_kerning.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_kerning.o --omf_browse .\output\debug\u8g2_kerning.crf --depend .\output\debug\u8g2_kerning.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_line.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_line.o --omf_browse .\output\debug\u8g2_line.crf --depend .\output\debug\u8g2_line.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_ll_hvline.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_ll_hvline.o --omf_browse .\output\debug\u8g2_ll_hvline.crf --depend .\output\debug\u8g2_ll_hvline.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\assert.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_message.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_message.o --omf_browse .\output\debug\u8g2_message.crf --depend .\output\debug\u8g2_message.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_polygon.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_polygon.o --omf_browse .\output\debug\u8g2_polygon.crf --depend .\output\debug\u8g2_polygon.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_selection_list.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_selection_list.o --omf_browse .\output\debug\u8g2_selection_list.crf --depend .\output\debug\u8g2_selection_list.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8g2_setup.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8g2_setup.o --omf_browse .\output\debug\u8g2_setup.crf --depend .\output\debug\u8g2_setup.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\assert.h)(0x588B8344)
+F (.\hardware\U8G2\u8log.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8log.o --omf_browse .\output\debug\u8log.crf --depend .\output\debug\u8log.d)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\string.h)(0x588B8344)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8log_u8g2.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8log_u8g2.o --omf_browse .\output\debug\u8log_u8g2.crf --depend .\output\debug\u8log_u8g2.d)
+I (hardware\U8G2\u8g2.h)(0x69BEBC6C)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8log_u8x8.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8log_u8x8.o --omf_browse .\output\debug\u8log_u8x8.crf --depend .\output\debug\u8log_u8x8.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_8x8.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_8x8.o --omf_browse .\output\debug\u8x8_8x8.crf --depend .\output\debug\u8x8_8x8.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_byte.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_byte.o --omf_browse .\output\debug\u8x8_byte.crf --depend .\output\debug\u8x8_byte.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_cad.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_cad.o --omf_browse .\output\debug\u8x8_cad.crf --depend .\output\debug\u8x8_cad.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_capture.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_capture.o --omf_browse .\output\debug\u8x8_capture.crf --depend .\output\debug\u8x8_capture.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_d_a2printer.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_d_a2printer.o --omf_browse .\output\debug\u8x8_d_a2printer.crf --depend .\output\debug\u8x8_d_a2printer.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_d_sh1107.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_d_sh1107.o --omf_browse .\output\debug\u8x8_d_sh1107.crf --depend .\output\debug\u8x8_d_sh1107.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_d_ssd1306_128x32.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_d_ssd1306_128x32.o --omf_browse .\output\debug\u8x8_d_ssd1306_128x32.crf --depend .\output\debug\u8x8_d_ssd1306_128x32.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_d_ssd1306_128x64_noname.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_d_ssd1306_128x64_noname.o --omf_browse .\output\debug\u8x8_d_ssd1306_128x64_noname.crf --depend .\output\debug\u8x8_d_ssd1306_128x64_noname.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_debounce.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_debounce.o --omf_browse .\output\debug\u8x8_debounce.crf --depend .\output\debug\u8x8_debounce.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_display.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_display.o --omf_browse .\output\debug\u8x8_display.crf --depend .\output\debug\u8x8_display.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_fonts.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_fonts.o --omf_browse .\output\debug\u8x8_fonts.crf --depend .\output\debug\u8x8_fonts.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_gpio.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_gpio.o --omf_browse .\output\debug\u8x8_gpio.crf --depend .\output\debug\u8x8_gpio.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_input_value.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_input_value.o --omf_browse .\output\debug\u8x8_input_value.crf --depend .\output\debug\u8x8_input_value.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_message.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_message.o --omf_browse .\output\debug\u8x8_message.crf --depend .\output\debug\u8x8_message.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_selection_list.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_selection_list.o --omf_browse .\output\debug\u8x8_selection_list.crf --depend .\output\debug\u8x8_selection_list.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_setup.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_setup.o --omf_browse .\output\debug\u8x8_setup.crf --depend .\output\debug\u8x8_setup.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_string.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_string.o --omf_browse .\output\debug\u8x8_string.crf --depend .\output\debug\u8x8_string.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_u8toa.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_u8toa.o --omf_browse .\output\debug\u8x8_u8toa.crf --depend .\output\debug\u8x8_u8toa.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
+F (.\hardware\U8G2\u8x8_u16toa.c)(0x69BEBC6C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB --li -g -O0 --apcs=interwork --split_sections -I .\common -I .\source -I .\driver\inc -I .\hardware\WS2812 -I .\hardware\OLED -I .\hardware\SW_I2C -I .\hardware\BEEPER -I .\system\delay -I .\system\sys -I .\system\usart -I .\hardware\Encoder -I .\hardware\MultiButton -I .\hardware\timer -I .\hardware\MPU6500 -I .\hardware\W25Q128 -I .\hardware\usb_app -I .\midwares\usb -I .\midwares\usb\usb_device_lib\device_class\msc -I .\midwares\usb\usb_device_lib\device_core -I .\hardware\U8G2 -I .\hardware\Hugo_UI -I .\hardware\MALLOC -I .\hardware\FileSystem-I.\RTE\_HOPE-CheroVersion_Debug-I"D:\666\keil5 MDK\ARM\PACK\HDSC\HC32F460\1.0.12\Device\Include"-I"D:\666\keil5 MDK\ARM\CMSIS\Include"-D__UVISION_VERSION="524" -D__DEBUG -DHC32F460 -DUSE_DDL_DRIVER-o .\output\debug\u8x8_u16toa.o --omf_browse .\output\debug\u8x8_u16toa.crf --depend .\output\debug\u8x8_u16toa.d)
+I (hardware\U8G2\u8x8.h)(0x69BEBC6C)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (D:\666\keil5 MDK\ARM\ARMCC\include\limits.h)(0x588B8344)
