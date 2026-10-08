@@ -1,4 +1,5 @@
 The HC32F460KETA-HOPE-KIT consists of a core board and a base board. The core board is equipped with an on-board MPU6050, OLED, buzzer, 16Mflash, RGB, buttons, and BTB connectors, facilitating rapid development. The base plate can be expanded with a variety of peripherals, including USB, UART, Bluetooth, rotary encoders, buttons, etc.
+
 1.Physical picture of the core board
 
 2.Physical picture of the expansion board
