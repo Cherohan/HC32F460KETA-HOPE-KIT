@@ -2,21 +2,63 @@ The HC32F460KETA-HOPE-KIT consists of a core board and a base board. The core bo
 
 1.Physical picture of the core board
 
+!\[core\_board\_top](./assets/core\_board\_top.png)
+
+!\[core\_board\_bottom](./assets/core\_board\_bottom.png)
+
 2.Physical picture of the expansion board
 
+!\[expansion\_board\_top](./assets/expansion\_board\_top.png)
+
+!\[expansion\_board\_bottom](./assets/expansion\_board\_bottom.png)
+
 3.UI Function demonstration
-  Attention!!!!    This UI and idea are based on the KeLiang open-source project.And I ported this project based on the DDL library of HC32F460
-  The open source link is as follows.👇👇👇
-  https://oshwhub.com/hugego/hope-stm32f401-based-mini-devframework
+Attention!!!!    This UI and idea are based on the KeLiang open-source project.And I ported this project based on the DDL library of HC32F460
+The open source link is as follows.👇👇👇
+https://oshwhub.com/hugego/hope-stm32f401-based-mini-devframework
+
+!\[hope\_ui1](./assets/hope\_ui1.png)
+
+!\[hope\_ui2](./assets/hope\_ui2.png)
+
+!\[hope\_ui3](./assets/hope\_ui3.png)
+
+!\[hope\_ui4](./assets/hope\_ui4.png)
 
 4.schematic、pcb(This can be found in the "hardware" folder)
-  schematic
-  
-  top layer
+core board schematic
 
-  inner1 layer
+!\[SCH\_main\_uint\_CheroVersion\_P1](./assets/SCH\_main\_uint\_CheroVersion\_P1.png)
 
-  inner2 layer
+!\[SCH\_main\_uint\_CheroVersion\_P2](./assets/SCH\_main\_uint\_CheroVersion\_P2.png)
 
-  bottom layer
-  
+core board top layer
+
+!\[PCB\_main\_uint\_CheroVersion\_top](./assets/PCB\_HOPE-Uint\_CheroVersion\_top.png)
+
+core board inner1 layer
+
+!\[PCB\_main\_uint\_CheroVersion\_inner1](./assets/PCB\_HOPE-Uint\_CheroVersion\_inner1.png)
+
+core board inner2 layer
+
+!\[PCB\_main\_uint\_CheroVersion\_inner2](./assets/PCB\_HOPE-Uint\_CheroVersion\_inner2.png)
+
+core board bottom layer
+
+!\[PCB\_main\_uint\_CheroVersion\_bottom](./assets/PCB\_HOPE-Uint\_CheroVersion\_bottom.png)
+
+base board schematic
+
+!\[SCH\_main\_base\_CheroVersion](./assets/SCH\_main\_base\_CheroVersion.png)
+
+base board top layer
+
+!\[PCB\_HOPE-Base\_CheroVersion\_top](./assets/PCB\_HOPE-Base\_CheroVersion\_top.png)
+
+base board bottom layer
+
+!\[PCB\_HOPE-Base\_CheroVersion\_bottom](./assets/PCB\_HOPE-Base\_CheroVersion\_bottom.png)
+
+
+
